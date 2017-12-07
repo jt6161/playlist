@@ -1,0 +1,76 @@
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: #97998b;
+}
+
+.section-left {
+  height: 600px;
+  width: 50%;
+  text-align: center;
+}
+
+.section-right {
+  height: 600px;
+  width: 50%;
+  background-image: url("resources/fadedTrack.jpg");
+  background-size: 750px 870px;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.covers {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  margin: 25px;
+}
+
+.footer {
+  height: 60px;
+  width: 100%;
+  background-color: #797c67;
+}
+
+p {
+  font-size: 1em;
+  text-align: left;
+  font-style: normal;
+  color: white;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  font-style: normal;
+  text-align: center;
+  color: purple;
+  margin-top: 250px;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

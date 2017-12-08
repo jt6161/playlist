@@ -74,7 +74,7 @@ div {
 
 .scroll {
   flex-wrap: nowrap;
-  height: 90px;
+  height: 150px;
   width: 100%;
   overflow: scroll;
   margin-left: 20px;

@@ -21,16 +21,24 @@
 }
 
 .main {
-  justify-content: center;
-  height: 800px
+  align-content: center;
+  width: auto;
+  height: 700px;
 }
 
 .box {
   border: solid 2px black;
   height: 250px;
-  width: 750px;
-  margin: 30px;
+  width: 700px;
+  margin: 20px;
   background-color: #cdcecb;
+}
+
+.small {
+  width: 800px;
+  height: 20px;
+  justify-content: center;
+  padding-bottom: 100px;
 }
 
 .section-left {
@@ -51,11 +59,11 @@
 }
 
 .scroll  {
-  flex-wrap: nowrap;
-  height: 100px;
-  width: 650px;
-  margin: 20px;
-  overflow: scroll;
+  flex-direction: row;
+  height: 90px;
+  width: 900px;
+  margin: 10px;
+  overflow-x: scroll;
 }
 
 img {
@@ -115,28 +123,26 @@ button {
   cursor: pointer;
 }
 
-button.button2 {
+.button2 {
   background-color: black;
   border: none;
   color: white;
-  padding: 12px 32px;
+  margin-left: 100px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
+  justify-content: flex-start;
 }
 
-button.button3 {
+.button3 {
   background-color: black;
   border: none;
   color: white;
-  padding: 12px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
 }

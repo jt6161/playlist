@@ -66,13 +66,12 @@ div {
 }
 
 .scroll  {
-
   flex-wrap: nowrap;
   height: 90px;
   width: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  margin-top: 20px;
+  overflow: scroll;
+  margin-left: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 

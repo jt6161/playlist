@@ -65,7 +65,7 @@ div {
   flex-direction: column;
 }
 
-.scroll  {
+.scroll {
   flex-wrap: nowrap;
   height: 90px;
   width: 100%;

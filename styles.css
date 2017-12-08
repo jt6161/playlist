@@ -7,12 +7,10 @@
   justify-content: center;
   margin: 0 auto;
 }
+
 @@font-face {
   font-family: 'Avenir';
-  src: local('Avenir'),
-  local('Avenir')
-  url('fonts/AvenirNextLTPro-Regular.otf')
-      format('opentype')
+  src: local('Avenir'), local('Avenir') url('fonts/AvenirNextLTPro-Regular.otf') format('opentype')
 }
 
 div {

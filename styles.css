@@ -22,7 +22,7 @@
 
 .main {
   align-content: center;
-  width: auto;
+  width: 650px;
   height: 700px;
 }
 
@@ -30,14 +30,13 @@
   border: solid 2px black;
   height: 250px;
   width: 700px;
-  margin: 20px;
   background-color: #cdcecb;
 }
 
 .small {
-  width: 800px;
+  width: 600px;
   height: 20px;
-  justify-content: center;
+  justify-content: left;
   padding-bottom: 100px;
 }
 
@@ -60,10 +59,12 @@
 
 .scroll  {
   flex-direction: row;
+  flex-wrap: nowrap;
   height: 90px;
-  width: 900px;
-  margin: 10px;
-  overflow-x: scroll;
+  width: 700px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  overflow: scroll;
 }
 
 img {
@@ -127,13 +128,11 @@ button {
   background-color: black;
   border: none;
   color: white;
-  margin-left: 100px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  justify-content: flex-start;
 }
 
 .button3 {

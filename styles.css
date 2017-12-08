@@ -7,6 +7,13 @@
   justify-content: center;
   margin: 0 auto;
 }
+@@font-face {
+  font-family: 'Avenir';
+  src: local('Avenir'),
+  local('Avenir')
+  url('fonts/AvenirNextLTPro-Regular.otf')
+      format('opentype')
+}
 
 div {
   display: block;
@@ -76,6 +83,10 @@ div {
 }
 
 img {
+  height: 150px;
+}
+
+img-2 {
   height: 80px;
   padding: 10px
 }
@@ -83,7 +94,7 @@ img {
 .covers {
   height: 150px;
   width: 150px;
-  background-color: blue;
+  border: solid 1px black;
   margin: 20px;
 }
 
@@ -94,25 +105,25 @@ img {
 }
 
 p {
+  font-family: 'Avenir';
   font-size: 1em;
   text-align: left;
-  font-style: normal;
   color: white;
   padding: 5px;
   padding-left: 20px;
 }
 
 h1 {
+  font-family: 'Avenir';
   font-size: 3em;
-  font-style: normal;
   text-align: center;
   color: purple;
   margin-top: 250px;
 }
 
 h2 {
+  font-family: 'Avenir';
   font-size: 2em;
-  font-style: normal;
   text-align: left;
   color: white;
   padding-left: 20px;
